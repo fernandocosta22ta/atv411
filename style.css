@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+}
+
+:root {
+--Gainsboro: #DCDCDC;	
+--LightGray: #D3D3D3;	
+--Silver: #C0C0C0;	
+--DarkGrey: #A9A9A9;	
+--Grey: #808080;	
+--DimGrey: #696969;	
+--LightSlateGrey: #778899;
+--SlateGrey: #708090;	
+--DarkSlateGrey: #2F4F4F;	
+--Black: #000000;
+}
+
+header {
+    background-color: var(--DimGrey);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.CB1000 {
+    display: flex;
+    margin: 1.5rem;
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Silver) ;
+}
+
+div.CB1000 p {
+    max-width: 15rem;
+    display: flex;
+    margin: 1.5rem;
+}
+
+div.CB1000 img{
+    height: 20rem;
+}
+
+div.S1000RR {
+    display: flex;
+    margin: 1.5rem;
+    background-color: var(--Grey); 
+    height: 25rem;
+    justify-content: center;
+    align-items: center;
+}
+
+div.S1000RR p {
+    max-width: 15rem;
+    display: flex;
+    margin: 1.5rem;
+    width: 10rem;
+}
+
+div.S1000RR img{
+    height: 20rem; 
+}
+
+div.opcoes img {
+    width: 15rem;
+    height: 10rem;
+    margin: 1.5rem;
+    justify-content: center;
+}
